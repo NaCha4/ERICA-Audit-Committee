@@ -1,6 +1,13 @@
+    <!-- 
+    상단바 따로 분리함
+    js/main.js이 불러옴 호출방법은 <div id="navbar-placeholder"></div>
+    -->
+
 <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm p-0">
-        <div class="container">
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
+    <div class="container">
+
+        <!-- 좌상단 메인 로고와 이름 -->
+        <a class="navbar-brand d-flex align-items-center" href="/index.html">
             <img src="/assets/images/common/logo.png" alt="중앙감사위원회 로고" class="navbar-logo me-2">
             중앙감사위원회
         </a>
@@ -9,6 +16,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+
+            <!-- 상단바 드롭다운 메뉴 -->
             <div class="collapse navbar-collapse" id="mainNavbar">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     
@@ -17,9 +26,9 @@
                             소개
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="intro-greeting.html">인사말</a></li>
-                            <li><a class="dropdown-item" href="intro-org.html">조직도</a></li>
-                            <li><a class="dropdown-item" href="intro-schedule.html">일정표</a></li>
+                            <li><a class="dropdown-item" href="/pages/intro/greeting.html">인사말</a></li>
+                            <li><a class="dropdown-item" href="/pages/intro/org.html">조직도</a></li>
+                            <li><a class="dropdown-item" href="/pages/intro/schedule.html">일정표</a></li>
                         </ul>
                     </li>
 
@@ -28,8 +37,8 @@
                             알림
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="notice-general.html">공지사항</a></li>
-                            <li><a class="dropdown-item" href="notice-vote.html">위원 선출 공고</a></li>
+                            <li><a class="dropdown-item" href="/pages/notice/general.html">공지사항</a></li>
+                            <li><a class="dropdown-item" href="/pages/notice/announcement.html">위원 선출 공고</a></li>
                         </ul>
                     </li>
 
@@ -38,9 +47,9 @@
                             자료실
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="resources-audit.html">중앙감사 세칙</a></li>
-                            <li><a class="dropdown-item" href="resources-audit.html">서식 다운로드</a></li>
-                            <li><a class="dropdown-item" href="resources-audit.html">제출 가이드</a></li>
+                            <li><a class="dropdown-item" href="/pages/resources/rule.html">중앙감사 세칙</a></li>
+                            <li><a class="dropdown-item" href="/pages/resources/download.html">서식 다운로드</a></li>
+                            <li><a class="dropdown-item" href="/pages/resources/guide.html">제출 가이드</a></li>
                         </ul>
                     </li>
 
@@ -49,8 +58,8 @@
                             감사 진행
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="results-2026.html">정기 감사</a></li>
-                            <li><a class="dropdown-item" href="results-2025.html">피감기구 자료제출</a></li>
+                            <li><a class="dropdown-item" href="/pages/audit/regular.html">정기 감사</a></li>
+                            <li><a class="dropdown-item" href="/pages/audit/submit.html">피감기구 자료제출</a></li>
                         </ul>
                     </li>
 
@@ -60,8 +69,8 @@
                             감사 결과
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="results-2026.html">2026년도</a></li>
-                            <li><a class="dropdown-item" href="results-2025.html">2025년도</a></li>
+                            <li><a class="dropdown-item" href="/pages/results/2026.html">2026년도</a></li>
+                            <li><a class="dropdown-item" href="/pages/results/2025.html">2025년도</a></li>
                         </ul>
                     </li>
 
@@ -70,8 +79,8 @@
                             문의
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="resources-faq.html">자주 묻는 질문</a></li>
-                            <li><a class="dropdown-item" href="results-2026.html">감사 요청</a></li>
+                            <li><a class="dropdown-item" href="/pages/ask/faq.html">자주 묻는 질문</a></li>
+                            <li><a class="dropdown-item" href="/pages/ask/request.html">감사 요청</a></li>
                         </ul>
                     </li>
 
@@ -85,6 +94,6 @@
                     
                     <i class="bi bi-instagram fs-3"></i>
                 </a>
-            </div>
         </div>
-    </nav>
+    </div>
+</nav>
